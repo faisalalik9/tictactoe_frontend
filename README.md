@@ -1,3 +1,11 @@
+This is the Frontend of the Tictactoe Async app, i have created and deployed the backend separately. Below is the link for the backend repository for Tictactoe app.
+
+# https://github.com/faisalalik9/tictactoe_backend
+
+I have used ReactJs framework for the frontend, and for backend, NodeJS and ExpressJs, and the database i have used is NOSQL, MongoDB.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -125,6 +125,7 @@ function GamePlay() {
         turn: turn,
         winner: winner,
         status: status,
+        isDraw : isDraw
       };
       console.log(data);
 
@@ -175,7 +176,9 @@ function GamePlay() {
         <div className="w-full">
           <div className="text-center py-3 bg-lightyellow mb-0">
             {game?.winner === ""
-              ? myTurn === game?.turn
+              ? game?.isDraw
+                ? "It's a Draw!"
+                : myTurn === game?.turn
                 ? "Your move"
                 : "Their move"
               : myemail === game?.winner

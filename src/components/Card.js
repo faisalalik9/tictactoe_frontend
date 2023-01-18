@@ -18,7 +18,7 @@ function Card({ game }) {
         {email === game.player2 ? game?.player1Name : game?.player2Name}
       </h1>
       <p className="text-md mb-4">
-        {game?.draw
+        {game?.isDraw
           ? "It's a draw!"
           : game?.winner !== ""
           ? email === game?.winner

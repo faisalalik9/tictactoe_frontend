@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Bilbo', cursive; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ .font-b{
+  font-family: 'Bilbo', cursive;
+ }
+
+ .btn-cus{
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+ }
+
+ .font-epl{
+  font-family: 'Epilogue', sans-serif;
+ }
+
+ .border-h{
+  border-left: 6px solid #FFE79E;
+  border-right: 6px solid #FFE79E;
+ }
+
+ .border-v{
+  border-top: 6px solid #FFE79E;
+  border-bottom: 6px solid #FFE79E;
+ }
+
+ /* .custom-m{
+  padding : 8px 0;
+ } */
+
+
+ .shd{
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+ }
+
+ .new-btn{
+  background: #270F36;
+    /* Drop Shadow 1 */
+  
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+ }

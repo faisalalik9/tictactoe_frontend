@@ -13,7 +13,7 @@ function Entry() {
   };
 
   return (
-    <div className="h-screen w-full lg:w-1/4">
+    <div className="h-screen w-full overflow-hidden lg:w-1/4">
       <div className="h-4/5 flex justify-center items-center">
         <div className="font-b text-center">
           <p className="text-4xl mb-6">async</p>

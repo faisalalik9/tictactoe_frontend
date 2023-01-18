@@ -40,7 +40,7 @@ function NewGame({ onClickBack, onClickStartGame, setOpponent }) {
 
   const handleSubmit = () => {
     axios
-      .get(`http://localhost:8080/users/${email}`)
+      .get(`${baseURI}/${email}`)
       .then((res) => {
         console.log("Res", res);
         setOpponent(res.data.data);

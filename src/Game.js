@@ -11,6 +11,7 @@ function Game({ onClickBack, opponent }) {
 
   let navigate = useNavigate();
   const baseURI = "https://tictactoe-backend-pi.vercel.app";
+
   const handleGameSubmit = () => {
     let email = getCookie("email");
     let name = getCookie("name");
@@ -22,7 +23,7 @@ function Game({ onClickBack, opponent }) {
         player2: opponent?.email,
         player1Name: name,
         player2Name: opponent?.name,
-        turn: 2,
+        turn: "2",
         [block]: "X",
         isDraw: false,
       };
